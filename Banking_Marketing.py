@@ -67,12 +67,12 @@ if passes in password:
 # else:
 #     st.error('You are not a registered user. But you have three trials')
 
-        st.sidebar.image('pngwing.com (2).png', caption = f'Welcome {username}')
+    st.sidebar.image('pngwing.com (2).png', caption = f'Welcome {username}')
 
-        dx = data[['duration', 'balance', 'day', 'age', 'month', 'pdays', 'job', 'campaign', 'education']]
-        st.write(dx.head())
+    dx = data[['duration', 'balance', 'day', 'age', 'month', 'pdays', 'job', 'campaign', 'education']]
+    st.write(dx.head())
 
-        st.markdown('<br><br>', unsafe_allow_html= True)
+    st.markdown('<br><br>', unsafe_allow_html= True)
 
 
     # INPUT FEATURES
